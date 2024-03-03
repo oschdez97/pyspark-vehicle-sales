@@ -27,17 +27,24 @@ export SPARK_HOME=/opt/spark
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 ```
 
-4. Install PySpark and project dependencies
+4. Create a python virtual environment and activate it
+> :bulb: It is recommended to create a virtual environment before installing the project dependencies to avoid version conflicts
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+5. Install PySpark and project dependencies
 ```
 make install
 ```
 
 > :warning: Make sure that the version of spark installed in your machine does match the version of pyspark.
 
-5. Run Jupyter Notebook
+6. Run Jupyter Notebook
 ```
 jupyter notebook
 ```
 The program will instantiate a local server at localhost:8888
 
-6. Open the file `dataset-analysis.ipynb` and run all cells
+7. Open the file `dataset-analysis.ipynb` and run all cells
