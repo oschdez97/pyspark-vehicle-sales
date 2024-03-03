@@ -4,7 +4,7 @@ This project explores and analyzes a car sales dataset using Apache Spark. It is
 
 The dataset that has been used can be found at: [https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data)
 
-## Installing PySpark on Linux
+## Installing PySpark on Ubuntu 20.04
 
 1. If Java is not installed, you must install befor install pyspark.
 ```
