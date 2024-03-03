@@ -27,7 +27,7 @@ export SPARK_HOME=/opt/spark
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 ```
 
-4. Install PySpark
+4. Install PySpark and project dependencies
 ```
 make install
 ```
