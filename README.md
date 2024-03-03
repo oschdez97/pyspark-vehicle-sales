@@ -34,3 +34,10 @@ make install
 
 > :warning: Make sure that the version of spark installed in your machine does match the version of pyspark.
 
+5. Run Jupyter Notebook
+```
+jupyter notebook
+```
+The program will instantiate a local server at localhost:8888
+
+6. Open the file `dataset-analysis.ipynb` and run all cells
